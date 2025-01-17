@@ -140,7 +140,7 @@ To embed this application in an iframe, use the following HTML snippet:
 
 ```html
 <iframe 
-  src="https://678a0a496c9281e1906927bf--shilpahs.netlify.app" 
+  src="https://shilpahs.netlify.app" 
   allow="microphone" 
   width="100%" 
   height="600px" 
@@ -154,7 +154,7 @@ To embed this application in an iframe, use the following HTML snippet:
 
 You can view a live demo of the application here:
 - **Backend**: [https://soap-node.onrender.com]
-- **Frontend**: [https://678a0a496c9281e1906927bf--shilpahs.netlify.app/]
+- **Frontend**: [https://shilpahs.netlify.app]
 
 ---
 
