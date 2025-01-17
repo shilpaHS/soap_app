@@ -9,7 +9,8 @@ This is a full-stack web application that records a conversation between a clini
 - Speech-to-text conversion using third-party APIs (Google Cloud, AssemblyAI, Deepgram, etc.).
 - SOAP Note generation via OpenAI API.
 - User-friendly interface with real-time transcription and SOAP note display.
-
+- Embeddable application using an iframe.
+  
 ---
 
 ## Project Structure
@@ -126,19 +127,26 @@ REACT_APP_API_URL=<your_backend_api_url>
 
 ### Backend Deployment
 
-1. Deploy the backend to cloud services like **Render**.
+**Render**.
 
 ### Frontend Deployment
 
-1. Deploy the frontend to services like **Netlify**.
+ **Netlify**.
 
 ---
+## Embedding in an Iframe
 
-## Security
+To embed this application in an iframe, use the following HTML snippet:
 
-- Protect sensitive API keys using environment variables.
-- Ensure HTTPS for secure data transmission.
-- Validate and sanitize all inputs.
+```html
+<iframe 
+  src="https://678a0a496c9281e1906927bf--shilpahs.netlify.app" 
+  allow="microphone" 
+  width="100%" 
+  height="600px" 
+  frameborder="0">
+</iframe>
+
 
 ---
 
@@ -146,7 +154,7 @@ REACT_APP_API_URL=<your_backend_api_url>
 
 You can view a live demo of the application here:
 - **Backend**: [https://soap-node.onrender.com]
-- **Frontend**: [https://6789fe8eb4af87f0eaca4b26--shilpahs.netlify.app/]
+- **Frontend**: [https://678a0a496c9281e1906927bf--shilpahs.netlify.app/]
 
 ---
 
