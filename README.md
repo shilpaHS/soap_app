@@ -14,7 +14,7 @@ This is a full-stack web application that records a conversation between a clini
 
 ## Project Structure
 
-soap-app/ │ ├── soap-node/ # Backend │ ├── server.js # Main server file │ ├── .gitignore # Git ignore file for backend │ ├── package.json # Backend dependencies and scripts │ ├── .env # Backend environment variables │ ├── api/ # API routes │ ├── services/ # External API services (Speech-to-Text, OpenAI) │ └── logs/ # Logs folder │ └── soap-react/ # Frontend ├── public/ # Public assets ├── src/ # React components and frontend logic ├── App.js # Main React component ├── components/ # Components for AudioRecorder, Transcription, SOAPNote ├── .gitignore # Git ignore file for frontend ├── package.json # Frontend dependencies and scripts ├── index.css # Main CSS file └── .env # Frontend environment variables
+soap-app/ ├── soap-node/ # Backend │ ├── server.js # Main server file │ ├── .gitignore # Git ignore file for backend │ ├── package.json # Backend dependencies and scripts │ ├── .env # Backend environment variables │ ├── api/ # API routes │ ├── services/ # External API services (Speech-to-Text, OpenAI) │ └── logs/ # Logs folder │ └── soap-react/ # Frontend ├── public/ # Public assets ├── src/ # React components and frontend logic ├── App.js # Main React component ├── components/ # Components for AudioRecorder, Transcription, SOAPNote ├── .gitignore # Git ignore file for frontend ├── package.json # Frontend dependencies and scripts ├── index.css # Main CSS file └── .env # Frontend environment variables
 
 
 ---
