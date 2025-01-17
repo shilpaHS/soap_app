@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/shilpaHS/soap_react.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/shilpaHS/soap-node.git
