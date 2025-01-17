@@ -32,7 +32,7 @@ soap-app/
     ├── index.css             # Main CSS file
     └── .env                  # Frontend environment variables
 
-
+```
 ---
 
 ## Setup Instructions
